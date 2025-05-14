@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contador</title>
+    <style>
+        body {
+        background-color: grey;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh; /* ocupa 100% da altura da tela */
+        margin: 0; /* remove margens padrão */
+        font-family: Arial, sans-serif;
+        }
+        h1{
+            font-size: 100px;
+            margin-bottom: 20px;
+        }
+        div {
+        text-align: center; /* centraliza o conteúdo dentro da div */
+    }
+        button {
+        padding: 10px 20px;
+        font-size: 16px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-bottom: 10px; /* espaçamento entre botão e texto */
+    }
+    
+    #btnr {
+        background-color: rgb(74, 74, 154);
+        color: white;
+    }
+    #btn {
+        background-color: #4CAF50; /* verde */
+        color: white;
+    }
+    #btn:hover {
+        background-color: #45a049; /* verde mais escuro no hover */
+    }
+    #cont1 {
+        font-size: 24px;
+        font-weight: bold;
+        color: #333; /* cor do texto mais escura */
+    }
+    #btns {
+        background-color: rgb(245, 8, 8);
+        color: white;
+    }
+    #btns:hover {
+background-color: rgb(109, 18, 18);
+    }
+    </style>
+</head>
+
+<body>
+    <div class="botoes">
+        <h1>CONTADOR</h1>
+    <button id="btn">Adicionar</button>
+    <button id = "btnr">Resetar</button>
+    <button id="btns">Subtrair</button>
+    <p id="cont1">NUMERO:</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
